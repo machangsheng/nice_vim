@@ -1,7 +1,7 @@
 # nice_vim
 make it easy
 
-###1. 从安装源编译vim
+##1. 从安装源编译vim
 1. 安装必要库：
 > `sudo apt-get install libncurses5-dev libgnome2-dev libgnomeui-dev 
     libgtk2.0-dev libatk1.0-dev libbonoboui2-dev 
@@ -25,7 +25,7 @@ make it easy
 
 >`sudo make install``
 
-###2. 安装vundle   
+##2. 安装vundle   
 1. 介绍:
 
    安装需要[Git](http://git-scm.com/),触发[`git clone`](http://gitref.org/creating/#clone),默认将每一个指定特定格式插件的仓库复制到`~/.vim/bundle/`.
