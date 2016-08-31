@@ -29,7 +29,7 @@ make it easy
 1. `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`   
 2. `touch .vimrc`,在此文件中放入   
 
->`set nocompatible              " be iMproved, required
+>set nocompatible              " be iMproved, required
 filetype off                  " required
 
 >" set the runtime path to include Vundle and initialize
@@ -54,7 +54,7 @@ filetype plugin indent on    " required
 " :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
 "
 " see :h vundle for more details or wiki for FAQ
-" Put your non-Plugin stuff after this line`  
+" Put your non-Plugin stuff after this line
 
 3. 安装`:PluginInstall`
 
