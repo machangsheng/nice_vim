@@ -23,7 +23,9 @@ make it easy
 
 >`make VIMRUNTIMEDIR=/usr/share/vim/vim74`   
 
->`sudo make install``
+>`sudo make install`
+
+构建完成后输入`:echo has('python')`，若输出 1 则表示构建出的 vim 已支持 python，反之，0 则不支持。
 
 ##2. 安装vundle   
 1. 介绍:
